@@ -13,7 +13,7 @@ h1 {
 }
 
 .App {
-  width: 80%;
+  width: 50%;
   margin: auto;
   min-height: 550px;
   background-color: white;
@@ -142,4 +142,10 @@ form > input::placeholder {
 
 .download-btn :hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1026px) {
+  .App {
+    width: 70%;
+  }
 }
