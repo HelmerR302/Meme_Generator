@@ -9,7 +9,7 @@ Get access to Top 100 popular meme images, add text and create your own meme. En
 
 ## Screenshot
 
-![Preview]()
+![Preview](https://github.com/HelmerR302/Meme_Generator/blob/7995aadf094ea7df9c7d1f9f8602d54b03255662/src/assets/Preview.png?raw=true)
 
 ## Live link
 
@@ -17,7 +17,9 @@ Live Site URL:
 
 ## Tech stacks
 
-- HTML, Customised CSS
-- Javascript, Javascript libraries
+- HTML
+- Customised CSS
+- Javascript
+- Javascript libraries
 - React
 - API
