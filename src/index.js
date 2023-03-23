@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
+import BrowserRouter from "react-router-dom/BrowserRouter";
 import "./index.css";
 import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
@@ -19,3 +20,7 @@ ReactDOM.render(
 
 //  the server responded with a status of 404 ()
 //  "homepage": "https://helmerr302.github.io/Meme_Generator/",
+// > remove homepage, same situation. Put it back
+
+// https://github.com/HelmerR302/Meme_Generator/blob/gh-pages/static/js/main.0195ed73.js
+//<HashRouter basename="">
