@@ -6,7 +6,7 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/">
+    <HashRouter basename="/Meme_Generator">
       <App />
     </HashRouter>
   </React.StrictMode>,
