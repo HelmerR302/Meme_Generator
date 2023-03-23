@@ -1,7 +1,6 @@
 {
   "name": "meme_generator",
   "version": "0.1.0",
-  "homepage": "https://helmerr302.github.io/Meme_Generator/", 
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

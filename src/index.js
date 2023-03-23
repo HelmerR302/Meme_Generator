@@ -15,3 +15,7 @@ ReactDOM.render(
 
 //<HashRouter basename="/Meme_Generator">
 // https://helmerr302.github.io/Meme_Generator/Meme_Generator/static/js/main.4cf94e97.js
+// > remove basename
+
+//  the server responded with a status of 404 ()
+//  "homepage": "https://helmerr302.github.io/Meme_Generator/",
