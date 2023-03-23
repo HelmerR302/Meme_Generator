@@ -1,15 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { HashRouter } from "react-router-dom";
-import BrowserRouter from "react-router-dom/BrowserRouter";
+import { HashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="">
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
